@@ -785,11 +785,12 @@ header {
   .navbar {
     display: none;
   }
+  .navbar2{
+    justify-content: flex-end;
+  }
 
   .logo-name img {
     margin-left: 39px;
-    margin-right: 450px;
-
   }
   
 }
