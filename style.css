@@ -689,19 +689,19 @@ header {
   display: none;
 }
 
- @media screen and (max-width:576px) {
+ @media screen and (max-width:576px){
   body{
-    height: 200%;
+    height: 100%;
   }
   .theme {
-    width: 108%;
+    width: 151%;
     padding: 0;
     margin-left: 0px;
     padding-top: 28px;
     padding-left: 10px;
 }
   .container {
-    width: 108%;
+    width: 151%;
     padding-top: 0px;
     margin-left: 0px;
     border-radius: 0px;
