@@ -591,10 +591,14 @@ header {
   border-radius: 4px;
 }
 
-form .Meta-Description {
-  width: 226px;
-  height: 55px;
-  padding-left: 8px;
+.Meta-Description {
+  /* width: 226px; */
+  margin-top: 16px;
+  border: 1px solid #E5ECF6;
+  background: #EFEFEF;
+  box-shadow: 0px 1px 2px 0px rgba(145, 158, 171, 0.16);
+  /* height: 38px; */
+  border-radius: 4px;
 }
 
 .favicon {
@@ -607,7 +611,7 @@ form .Meta-Description {
   padding: 16px 24px 16px 24px;
   gap: 24px;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   flex-direction: column;
 }
 
@@ -727,18 +731,18 @@ form .Meta-Description {
 }
 .right-part {
  width: 100%;
- height: 50%;
+ height: 35%;
  margin-top: 10px;
 
 }
 .favicon {
  width: 100%;
- height: 50%;
+ height: 30%;
  margin-top: 10px;
 }
 .Apple-Icon {
 width: 100%;
-height: 5dvi;
+height: 35%;
 margin-top: 10px;
 }
 .upload2 form{
@@ -746,5 +750,16 @@ margin-top: 10px;
   margin-right: auto;
 }
 
+.form input {
+  width: 100%;
+}
+.btn {
+ /* Make buttons full width */
+  margin: 10px auto; /* Center buttons horizontally */
+}
 
+.btn button {
+  width: 100%;
+  margin-top: 1900px; /* Make buttons full width */
+}
 }
