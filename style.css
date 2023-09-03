@@ -681,7 +681,6 @@ header {
   padding: 16px 24px 16px 24px;
   gap: 24px;
   display: flex;
-  /* align-items: flex-start; */
   flex-direction: column;
 }
 
@@ -694,7 +693,7 @@ header {
     height: 100%;
   }
   .theme {
-    width: 153%;
+    width: 155%;
     padding: 0;
     margin-left: 0px;
     padding-top: 28px;
@@ -756,7 +755,7 @@ padding-bottom: 0px;
 }
 
 .btn {
-margin-left: 392px;
+margin-left: 50%;
 
 }
 
