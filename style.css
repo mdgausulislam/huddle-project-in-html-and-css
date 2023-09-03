@@ -166,9 +166,20 @@ cursor: pointer;
   background-color: #f1f1f1;
   border-radius: 5px;
 }
+.theme {
+  /* Set the width to 100% for all screens */
+  max-width: 1152px; /* Add a max-width to limit the container size */
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto; /* Center the element horizontally */
+  border-radius: 8px;
+  border: 1px solid #E5ECF6;
+  background-color: #FFFFFF;
+  padding: 24px;
+  gap: 20px;
+}
 
-
-
+/* 
   .theme {
     width: 1152px;
     height: 79px;
@@ -179,7 +190,7 @@ cursor: pointer;
     background-color: #FFFFFF;
     padding: 24px;
     gap: 20px;
-}
+} */
 
 .theme a {
   margin: 13px;
@@ -647,9 +658,10 @@ line-height: 20px; /* 142.857% */
     }
     .theme {
       width: 100%;
-      height: 100%;
+      height: 50px;
       padding: 0;
       padding-top: 12px;
+      padding-left: 10px;
       margin-left: 0px;
   }
   body{
