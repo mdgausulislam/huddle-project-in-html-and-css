@@ -686,22 +686,21 @@ form .Meta-Description {
 
 @media screen and (max-width:576px) {
   .theme {
-    width: 100%;
-    height: 50px;
+    width: 150%;
     padding: 0;
     margin-left: 0px;
-  }
+    padding-top: 28px;
+    padding-left: 10px;
+}
   .container {
-    width: 100%;
+    width: 150%;
     padding-top: 0px;
     margin-left: 0px;
     border-radius: 0px;
     padding: 0px 0px 0px 0px;
-    height: 100%;
     flex-direction: column;
-  }
-  .main-body {
-    width: 100%;
+  } 
+  .main-body{
     margin-top: 10px;
     border-radius: 0px;
     padding: 24px;
