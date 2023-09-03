@@ -653,22 +653,15 @@ line-height: 20px; /* 142.857% */
     display: none;
   }
   @media screen and (max-width:576px){
-    .container{
-      flex-direction: column;
-    }
-    .theme {
-      width: 50%;
-      height: 50px;
-      padding: 0;
-      padding-top: 12px;
-      padding-left: 10px;
-      margin-left: 0px;
-  }
-  body{
-    width: 616px;
+      .theme {
+        width: auto;
+        height: auto;
+        padding: 0;
+        /* padding-top: 12px; */
+        padding-left: 10px;
+        margin-left: 0px;
   }
   
-    
   }
 
 
