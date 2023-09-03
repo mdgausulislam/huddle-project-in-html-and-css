@@ -657,7 +657,7 @@ line-height: 20px; /* 142.857% */
       flex-direction: column;
     }
     .theme {
-      width: 100%;
+      width: 50%;
       height: 50px;
       padding: 0;
       padding-top: 12px;
